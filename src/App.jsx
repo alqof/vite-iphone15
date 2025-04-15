@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
 import Model from "./components/Model"
@@ -7,7 +7,7 @@ import HowItWorks from "./components/HowItWorks"
 import Footer from "./components/Footer"
 
 
-const App = ()=>{
+const App = () => {
   return(
     <main className="bg-black">
       <Navbar />
@@ -20,5 +20,4 @@ const App = ()=>{
     </main>
   )
 }
-
 export default App 
